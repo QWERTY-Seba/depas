@@ -1,0 +1,39 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* [START maps_map_simple] */
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 100%;
+  flex: 1;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#lista{
+  flex: 1;
+  width : 100px;
+  border: 1px solid black;
+
+}
+
+#container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/* [END maps_map_simple] */
